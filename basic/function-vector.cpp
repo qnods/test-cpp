@@ -5,7 +5,7 @@ using namespace std;
 
 // ampersand (&) is used to allow modifying the actual list.
 // otherwise it will create a copy and just modiy the copy of the list
-// create copy is unefficient on long list
+// create copy is inefficient on long list
 
 void add_zeros_to_list(vector<int> &number_list, int zeros_number){
     for(int i =0; i < zeros_number; i++){
